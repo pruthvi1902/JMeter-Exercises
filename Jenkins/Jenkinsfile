@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/QAInsights/JMeter-Exercises.git'
+                git branch: 'main', url: 'https://github.com/pruthvi1902/JMeter-Exercises.git'
             }
         }
         stage('Execute JMeter') {
